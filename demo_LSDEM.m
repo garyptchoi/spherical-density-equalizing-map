@@ -14,7 +14,7 @@
 % target: k x 3 target positions of the landmarks on the unit sphere
 % alpha: nonnegative weighting parameter for the density-equalizing term
 % beta: nonnegative weighting parameter for the harmonic term
-% gamma: nonnegative weighting parameter for the landmark mistmatch term
+% gamma: nonnegative weighting parameter for the landmark mismatch term
 % dt: step size (optional, default = 0.01)
 % epsilon: stopping parameter (optional, default = 1e-3)
 % max_iter: maximum number of iterations (optional, default = 200)
