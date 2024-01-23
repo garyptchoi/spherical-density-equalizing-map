@@ -4,9 +4,11 @@ function regular_triangle = regular_triangle(f,v)
 % If you use this code in your own work, please cite the following paper:
 % [1] Z. Lyu, L. M. Lui, and G. P. T. Choi,
 %     "Spherical Density-Equalizing Map for Genus-0 Closed Surfaces."
-%     Preprint, 2024.
+%     Preprint, arXiv:2401.11795, 2024.
 %
 % Copyright (c) 2024, Zhiyuan Lyu, Lok Ming Lui, Gary P. T. Choi
+%
+% https://github.com/garyptchoi/spherical-density-equalizing-map
 
 
 nv = length(v);

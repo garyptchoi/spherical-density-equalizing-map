@@ -10,16 +10,18 @@ Any comments and suggestions are welcome.
 
 If you use this code in your work, please cite the following paper:
 
-[1] Z. Y. Lyu,  L. M. Lui, and G. P. T. Choi,
-    "Spherical Density-Equalizing Map for Genus-0 Closed Surfaces."
-    Preprint, 2024.
+[1] Z. Lyu,  L. M. Lui, and G. P. T. Choi,
+    "[Spherical Density-Equalizing Map for Genus-0 Closed Surfaces.](https://arxiv.org/abs/2401.11795)"
+    Preprint, arXiv:2401.11795, 2024.
 
 Copyright (c) 2024, Zhiyuan Lyu, Lok Ming Lui, Gary P. T. Choi
+
+https://github.com/garyptchoi/spherical-density-equalizing-map
 
 ===============================================================
 
 Usage:
-* `map = SDEM(v,f,population,dt,epsilon,max_iter)`
+* `map = SDEM(v,f,population,S,dt,epsilon,max_iter)`
 * `map = LSDEM(v,f,population,S,landmark,target,alpha,beta,gamma,dt,epsilon,max_iter)`
 
 Input:
