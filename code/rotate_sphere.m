@@ -4,7 +4,7 @@ function [v_temp,M,Minv] = rotate_sphere(f,v,north_f)
 % If you use this code in your work, please cite the following paper:
 % [1] Z. Lyu, L. M. Lui, and G. P. T. Choi,
 %     "Spherical Density-Equalizing Map for Genus-0 Closed Surfaces."
-%     Preprint, arXiv:2401.11795, 2024.
+%     SIAM Journal on Imaging Sciences, 17(4), 2110-2141, 2024.
 %
 % Copyright (c) 2024, Zhiyuan Lyu, Lok Ming Lui, Gary P. T. Choi
 %
