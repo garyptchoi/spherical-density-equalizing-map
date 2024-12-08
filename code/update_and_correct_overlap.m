@@ -124,7 +124,15 @@ while flag
         % done, no need to continue
         flag = 0;
     end
+    
+    if dt < 1e-10
+        flag = 0;
+    end
 end
 
-% rotate the sphere to the original position after correction
-r_new = (RS_inv*r_newS')';
+if dt < 1e-10
+    r_new = r_ori;
+else
+    % rotate the sphere to the original position after correction
+    r_new = (RS_inv*r_newS')';
+end
