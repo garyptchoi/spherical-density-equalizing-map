@@ -23,6 +23,8 @@ while flag
          r(:,2)./sqrt(sum(r.^2,2)), ...
          r(:,3)./sqrt(sum(r.^2,2))];
 
+    f = f_ori;
+
     %% north pole step
     % rotate the initial and current spheres such that north_f is the north pole
     S_rotN = rotate_sphere(f,S,bigtri);
